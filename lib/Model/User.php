@@ -6,8 +6,8 @@ class Model_User extends Model_Table {
 		parent::init();
 		
 		
-		$this->addField('name');
-		$this->addField('email');
+		$this->addField('first_name');
+		$this->addField('last_name');
 
 		}
 	}
